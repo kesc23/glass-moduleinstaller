@@ -18,7 +18,7 @@
         }
     },
     "extra": {
-        "class": "MartinFields\\Composer\\TemplateInstallerPlugin"
+        "class": "MartinFields\\Composer\\ComposerPlugin"
     },
     "require": {
         "composer-plugin-api": "*"
