@@ -1,0 +1,25 @@
+{
+    "name": "martin-fields/glass-moduleinstaller",
+    "type": "composer-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Kevin Fields",
+            "email": "kevin@kevincampos.com.br",
+            "homepage": "https://felizex.press",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MartinFields\\Glass\\": "includes/classes/",
+            "Vendor\\Namespace\\": ""
+        }
+    },
+    "extra": {
+        "class": "MartinFields\\Composer\\TemplateInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "*"
+    }
+}
