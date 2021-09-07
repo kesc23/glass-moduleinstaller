@@ -12,7 +12,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "MartinFields\\Glass\\": "includes/classes/",
+            "MartinFields\\Glass\\": "src/",
+            "MartinFields\\Composer\\": "src/",
             "Vendor\\Namespace\\": ""
         }
     },
