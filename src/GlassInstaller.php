@@ -5,7 +5,7 @@ namespace MartinFields\Composer;
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
 
-Class GlassInstaller implements InstallerInterface
+Class GlassInstaller extends LibraryInstaller
 {
     /**
      * {@inheritDoc}
